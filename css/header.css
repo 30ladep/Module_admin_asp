@@ -1,0 +1,6 @@
+.container .navbar .text-logo {
+  font-size: 25px;
+  color: #c92127; }
+  .container .navbar .collapse .nav-item .nav-link:hover {
+    border-bottom: 1px solid red;
+    background-color: #E7E7E7; }

@@ -1,0 +1,50 @@
+.container .row ul {
+  border: solid 1px black;
+  list-style: none; }
+  .container .row ul li {
+    padding: 10px 20px; }
+  .container .row ul .dm-title {
+    background-color: #CC2626;
+    font-weight: bold;
+    color: white; }
+    .container .row ul .dm-content:hover {
+      background-color: #F79929; }
+      .container .row ul .dm-content:hover a {
+        color: white; }
+    .container .row ul .dm-content a {
+      color: black;
+      text-decoration: none; }
+.container .row .infor {
+  background-color: #CC2626;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px; }
+.container .row .website {
+  background-color: #F5F5F5;
+  color: black;
+  font-weight: bold;
+  font-size: 16px; }
+  .container .row .row .logo .img-logo {
+    position: relative;
+    width: 100%; }
+    .container .row .row .logo .img-logo img {
+      max-width: 100%;
+      height: auto;
+      opacity: 0.5;
+      position: relative; }
+    .container .row .row .logo .img-logo::before {
+      position: absolute;
+      content: "\f044";
+      font-family: "Font Awesome 5 Free";
+      color: red;
+      top: 15px;
+      left: 128px;
+      font-size: 20px; }
+  .container .row .row textarea {
+    resize: none;
+    width: 238px;
+    height: 104px; }
+  .container .row .row .button {
+    width: 100%;
+    text-align: end; }
